@@ -178,6 +178,7 @@ export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moo
 export { default as Morph, type CompoundedIcon as MorphProps } from './Morph';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
+export { default as NanoBanana, type CompoundedIcon as NanoBananaProps } from './NanoBanana';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './Nebius';
 export { default as NewAPI, type CompoundedIcon as NewAPIProps } from './NewAPI';
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './NotebookLM';

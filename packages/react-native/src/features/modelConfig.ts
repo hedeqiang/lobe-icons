@@ -59,6 +59,7 @@ import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import Moonshot from '../icons/Moonshot';
 import Morph from '../icons/Morph';
+import NanoBanana from '../icons/NanoBanana';
 import NousResearch from '../icons/NousResearch';
 import Nova from '../icons/Nova';
 import Nvidia from '../icons/Nvidia';
@@ -142,7 +143,7 @@ export const rnModelMappings: RNModelMapping[] = [
     keywords: ['^gpt-', '/gpt-', 'openai'],
   },
   { Icon: GLMV, keywords: ['^glm-(.*)v', '/glm-(.*)v'] },
-  { Icon: ZAI, keywords: ['^glm-4', '/glm-4'] },
+  { Icon: ZAI, keywords: ['^glm-5', '/glm-5', '/glm5', '^glm-4', '/glm-4', '/glm4'] },
   { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
@@ -160,6 +161,16 @@ export const rnModelMappings: RNModelMapping[] = [
   },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
+  {
+    Icon: NanoBanana,
+    keywords: [
+      'gemini-3.1-pro-preview',
+      'gemini-3-pro-preview',
+      'gemini-\\d+(?:\\.\\d+)?-(?:flash|pro)-image-preview$',
+      'nanobanana',
+      'nano-banana',
+    ],
+  },
   { Icon: Gemini, keywords: ['gemini'] },
   {
     Icon: DeepMind,
@@ -226,7 +237,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie', 'irag'] },
   { Icon: Jina, keywords: ['^jina', '/jina'] },
-  { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit'] },
+  { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit', 'seedance-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },

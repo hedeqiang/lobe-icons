@@ -59,6 +59,7 @@ import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
 import Morph from '@/Morph';
+import NanoBanana from '@/NanoBanana';
 import NousResearch from '@/NousResearch';
 import Nova from '@/Nova';
 import Nvidia from '@/Nvidia';
@@ -162,6 +163,16 @@ export const modelMappings: ModelMapping[] = [
   },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
+  {
+    Icon: NanoBanana,
+    keywords: [
+      'gemini-3.1-pro-preview',
+      'gemini-3-pro-preview',
+      'gemini-\\d+(?:\\.\\d+)?-(?:flash|pro)-image-preview$',
+      'nanobanana',
+      'nano-banana',
+    ],
+  },
   { Icon: Gemini, keywords: ['gemini'] },
   {
     Icon: DeepMind,
