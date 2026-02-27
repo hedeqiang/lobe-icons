@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 4.7.0](https://github.com/lobehub/lobe-icons/compare/v4.6.0...v4.7.0)
+
+<sup>Released on **2026-02-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Update Nano Banana.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([bde7247](https://github.com/lobehub/lobe-icons/commit/bde7247))
+- **misc**: Update Nano Banana ([10e3f56](https://github.com/lobehub/lobe-icons/commit/10e3f56))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 4.6.0](https://github.com/lobehub/lobe-icons/compare/v4.5.0...v4.6.0)
 
 <sup>Released on **2026-02-14**</sup>
