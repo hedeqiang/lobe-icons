@@ -27,8 +27,13 @@ export {
   default as AlibabaCloud,
   type CompoundedIcon as AlibabaCloudProps,
 } from './icons/AlibabaCloud';
+export { default as Amp, type CompoundedIcon as AmpProps } from './icons/Amp';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './icons/AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './icons/Anthropic';
+export {
+  default as Antigravity,
+  type CompoundedIcon as AntigravityProps,
+} from './icons/Antigravity';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './icons/Anyscale';
 export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './icons/Arcee';
@@ -59,8 +64,13 @@ export { default as CapCut, type CompoundedIcon as CapCutProps } from './icons/C
 export { default as CentML, type CompoundedIcon as CentMLProps } from './icons/CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './icons/Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './icons/ChatGLM';
+export {
+  default as CherryStudio,
+  type CompoundedIcon as CherryStudioProps,
+} from './icons/CherryStudio';
 export { default as Civitai, type CompoundedIcon as CivitaiProps } from './icons/Civitai';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './icons/Claude';
+export { default as ClaudeCode, type CompoundedIcon as ClaudeCodeProps } from './icons/ClaudeCode';
 export { default as Cline, type CompoundedIcon as ClineProps } from './icons/Cline';
 export { default as Clipdrop, type CompoundedIcon as ClipdropProps } from './icons/Clipdrop';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './icons/Cloudflare';
@@ -69,6 +79,7 @@ export {
   type CompoundedIcon as CodeFlickerProps,
 } from './icons/CodeFlicker';
 export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './icons/CodeGeeX';
+export { default as Codex, type CompoundedIcon as CodexProps } from './icons/Codex';
 export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './icons/CogVideo';
 export { default as CogView, type CompoundedIcon as CogViewProps } from './icons/CogView';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './icons/Cohere';
@@ -174,6 +185,8 @@ export { default as Inflection, type CompoundedIcon as InflectionProps } from '.
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './icons/InternLM';
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './icons/Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './icons/Jina';
+export { default as Junie, type CompoundedIcon as JunieProps } from './icons/Junie';
+export { default as KiloCode, type CompoundedIcon as KiloCodeProps } from './icons/KiloCode';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './icons/Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './icons/Kluster';
@@ -237,6 +250,8 @@ export { default as Ollama, type CompoundedIcon as OllamaProps } from './icons/O
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './icons/OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './icons/OpenChat';
 export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './icons/OpenClaw';
+export { default as OpenCode, type CompoundedIcon as OpenCodeProps } from './icons/OpenCode';
+export { default as OpenHands, type CompoundedIcon as OpenHandsProps } from './icons/OpenHands';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './icons/OpenRouter';
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './icons/OpenWebUI';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './icons/PaLM';
@@ -262,6 +277,7 @@ export { default as Recraft, type CompoundedIcon as RecraftProps } from './icons
 export { default as Relace, type CompoundedIcon as RelaceProps } from './icons/Relace';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './icons/Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './icons/Replit';
+export { default as RooCode, type CompoundedIcon as RooCodeProps } from './icons/RooCode';
 export { default as RSSHub, type CompoundedIcon as RSSHubProps } from './icons/RSSHub';
 export { default as Runway, type CompoundedIcon as RunwayProps } from './icons/Runway';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './icons/Rwkv';
@@ -333,6 +349,7 @@ export { default as Yuanbao, type CompoundedIcon as YuanbaoProps } from './icons
 export { default as ZAI, type CompoundedIcon as ZAIProps } from './icons/ZAI';
 export { default as Zapier, type CompoundedIcon as ZapierProps } from './icons/Zapier';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './icons/Zeabur';
+export { default as Zencoder, type CompoundedIcon as ZencoderProps } from './icons/Zencoder';
 export { default as ZenMux, type CompoundedIcon as ZenMuxProps } from './icons/ZenMux';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './icons/ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './icons/Zhipu';

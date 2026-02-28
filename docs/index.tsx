@@ -1,4 +1,4 @@
-import { Snippet , Center, Flexbox } from '@lobehub/ui';
+import { Center, Flexbox, Snippet } from '@lobehub/ui';
 import { Features, FeaturesProps } from '@lobehub/ui/awesome';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
 

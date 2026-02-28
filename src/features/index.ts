@@ -1,3 +1,5 @@
+export { agentMappings } from './agentConfig';
+export { default as AgentIcon, type AgentIconProps } from './AgentIcon';
 export { getLobeIconCDN, type LobeIconCdnConfig } from './getLobeIconCDN';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
