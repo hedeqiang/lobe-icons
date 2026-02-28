@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.3.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.2.0...@lobehub/icons-rn@2.3.0)
+
+<sup>Released on **2026-02-28**</sup>
+
+#### ✨ Features
+
+- **misc**: Add AgentIcon.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Nano Banana.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add AgentIcon ([7657285](https://github.com/lobehub/lobe-icons/commit/7657285))
+
+#### What's fixed
+
+- **misc**: Fix Nano Banana ([f3375d4](https://github.com/lobehub/lobe-icons/commit/f3375d4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.2.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.1.0...@lobehub/icons-rn@2.2.0)
 
 <sup>Released on **2026-02-27**</sup>
