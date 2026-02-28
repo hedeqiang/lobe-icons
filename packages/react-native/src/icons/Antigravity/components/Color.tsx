@@ -96,7 +96,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
       </G>
       <Defs>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="17.587"
           id={b.id}
@@ -109,7 +108,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="1.117" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="38.565"
           id={c.id}
@@ -122,7 +120,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="5.4" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="36.517"
           id={d.id}
@@ -135,7 +132,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="4.591" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="36.517"
           id={e.id}
@@ -148,7 +144,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="4.591" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="36.595"
           id={f.id}
@@ -161,7 +156,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="4.591" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="34.087"
           id={g.id}
@@ -174,7 +168,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="4.363" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="35.276"
           id={h.id}
@@ -187,7 +180,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="3.954" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="46.523"
           id={i.id}
@@ -200,7 +192,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="3.531" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="24.054"
           id={j.id}
@@ -213,7 +204,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="3.159" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="30.007"
           id={k.id}
@@ -226,7 +216,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           <FeGaussianBlur result="effect1_foregroundBlur_977_115" stdDeviation="2.669" />
         </Filter>
         <Filter
-          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
           height="26.151"
           id={l.id}
