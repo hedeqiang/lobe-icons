@@ -1,6 +1,7 @@
 export { default as Ace, type CompoundedIcon as AceProps } from './Ace';
 export { default as Adobe, type CompoundedIcon as AdobeProps } from './Adobe';
 export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } from './AdobeFirefly';
+export { default as AgentVoice, type CompoundedIcon as AgentVoiceProps } from './AgentVoice';
 export { default as Agui, type CompoundedIcon as AguiProps } from './Agui';
 export { default as Ai2, type CompoundedIcon as Ai2Props } from './Ai2';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
@@ -19,8 +20,10 @@ export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './Ant
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Antigravity, type CompoundedIcon as AntigravityProps } from './Antigravity';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Anyscale';
+export { default as Apertis, type CompoundedIcon as ApertisProps } from './Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './Arcee';
+export { default as AskVerdict, type CompoundedIcon as AskVerdictProps } from './AskVerdict';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './AssemblyAI';
 export { default as AtlasCloud, type CompoundedIcon as AtlasCloudProps } from './AtlasCloud';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
@@ -160,6 +163,7 @@ export { default as Liquid, type CompoundedIcon as LiquidProps } from './Liquid'
 export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './LiveKit';
 export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from './LlamaIndex';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
+export { default as LlmApi, type CompoundedIcon as LlmApiProps } from './LlmApi';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './LongCat';
@@ -219,6 +223,7 @@ export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './PydanticAI';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qiniu, type CompoundedIcon as QiniuProps } from './Qiniu';
+export { default as Qoder, type CompoundedIcon as QoderProps } from './Qoder';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
@@ -277,6 +282,7 @@ export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './W
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
 export { default as XiaomiMiMo, type CompoundedIcon as XiaomiMiMoProps } from './XiaomiMiMo';
 export { default as Xinference, type CompoundedIcon as XinferenceProps } from './Xinference';
+export { default as Xpay, type CompoundedIcon as XpayProps } from './Xpay';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
