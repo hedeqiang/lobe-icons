@@ -62,6 +62,7 @@ export {
   type CompoundedIcon as BilibiliIndexProps,
 } from './icons/BilibiliIndex';
 export { default as Bing, type CompoundedIcon as BingProps } from './icons/Bing';
+export { default as BriaAI, type CompoundedIcon as BriaAIProps } from './icons/BriaAI';
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './icons/BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './icons/ByteDance';
 export { default as CapCut, type CompoundedIcon as CapCutProps } from './icons/CapCut';
@@ -137,6 +138,7 @@ export { default as Flowith, type CompoundedIcon as FlowithProps } from './icons
 export { default as Flux, type CompoundedIcon as FluxProps } from './icons/Flux';
 export { default as Friendli, type CompoundedIcon as FriendliProps } from './icons/Friendli';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './icons/Gemini';
+export { default as GeminiCLI, type CompoundedIcon as GeminiCLIProps } from './icons/GeminiCLI';
 export { default as Gemma, type CompoundedIcon as GemmaProps } from './icons/Gemma';
 export { default as GiteeAI, type CompoundedIcon as GiteeAIProps } from './icons/GiteeAI';
 export { default as Github, type CompoundedIcon as GithubProps } from './icons/Github';
@@ -251,6 +253,7 @@ export { default as NovelAI, type CompoundedIcon as NovelAIProps } from './icons
 export { default as Novita, type CompoundedIcon as NovitaProps } from './icons/Novita';
 export { default as NPLCloud, type CompoundedIcon as NPLCloudProps } from './icons/NPLCloud';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './icons/Nvidia';
+export { default as Obsidian, type CompoundedIcon as ObsidianProps } from './icons/Obsidian';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './icons/Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './icons/OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './icons/OpenChat';
@@ -273,6 +276,7 @@ export {
   type CompoundedIcon as PollinationsProps,
 } from './icons/Pollinations';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './icons/PPIO';
+export { default as PrunaAI, type CompoundedIcon as PrunaAIProps } from './icons/PrunaAI';
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './icons/PydanticAI';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './icons/Qingyan';
 export { default as Qiniu, type CompoundedIcon as QiniuProps } from './icons/Qiniu';
@@ -283,6 +287,7 @@ export { default as Recraft, type CompoundedIcon as RecraftProps } from './icons
 export { default as Relace, type CompoundedIcon as RelaceProps } from './icons/Relace';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './icons/Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './icons/Replit';
+export { default as Reve, type CompoundedIcon as ReveProps } from './icons/Reve';
 export { default as RooCode, type CompoundedIcon as RooCodeProps } from './icons/RooCode';
 export { default as RSSHub, type CompoundedIcon as RSSHubProps } from './icons/RSSHub';
 export { default as Runway, type CompoundedIcon as RunwayProps } from './icons/Runway';
