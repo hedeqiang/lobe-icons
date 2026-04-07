@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 5.3.0](https://github.com/lobehub/lobe-icons/compare/v5.2.0...v5.3.0)
+
+<sup>Released on **2026-04-07**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add StepFunCodingPlan provider icon support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2a1a484](https://github.com/lobehub/lobe-icons/commit/2a1a484))
+- **misc**: Add StepFunCodingPlan provider icon support, closes [#282](https://github.com/lobehub/lobe-icons/issues/282) ([b4bbf85](https://github.com/lobehub/lobe-icons/commit/b4bbf85))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.2.0](https://github.com/lobehub/lobe-icons/compare/v5.1.0...v5.2.0)
 
 <sup>Released on **2026-03-27**</sup>
