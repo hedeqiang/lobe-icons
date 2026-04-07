@@ -114,6 +114,7 @@ export enum RNModelProvider {
   Spark = 'spark',
   Stability = 'stability',
   StateCloud = 'statecloud',
+  StepFunCodingPlan = 'stepfuncodingplan',
   Stepfun = 'stepfun',
   Straico = 'straico',
   StreamLake = 'streamlake',
