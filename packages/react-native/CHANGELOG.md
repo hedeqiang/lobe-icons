@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.6.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.5.0...@lobehub/icons-rn@2.6.0)
+
+<sup>Released on **2026-04-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Add StepFunCodingPlan provider icon support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add StepFunCodingPlan provider icon support, closes [#282](https://github.com/lobehub/lobe-icons/issues/282) ([b4bbf85](https://github.com/lobehub/lobe-icons/commit/b4bbf85))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.5.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.4.0...@lobehub/icons-rn@2.5.0)
 
 <sup>Released on **2026-03-27**</sup>
