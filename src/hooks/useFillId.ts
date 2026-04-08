@@ -1,8 +1,9 @@
 import { kebabCase } from 'es-toolkit';
-import { useMemo } from 'react';
+import { useId, useMemo } from 'react';
 
 export const useFillId = (namespace: string) => {
-  const id = `lobe-icons-${kebabCase(namespace)}-fill`;
+  const uniqueId = useId();
+  const id = `lobe-icons-${kebabCase(namespace)}-fill-${uniqueId}`;
   return useMemo(
     () => ({
       fill: `url(#${id})`,
@@ -13,14 +14,14 @@ export const useFillId = (namespace: string) => {
 };
 
 export const useFillIds = (namespace: string, length: number) => {
+  const uniqueId = useId();
   return useMemo(() => {
-    const ids = Array.from({ length }, (_, i) => {
-      const id = `lobe-icons-${kebabCase(namespace)}-fill-${i}`;
+    return Array.from({ length }, () => {
+      const id = `lobe-icons-${kebabCase(namespace)}-fill-${uniqueId}`;
       return {
         fill: `url(#${id})`,
         id,
       };
     });
-    return ids;
-  }, [namespace, length]);
+  }, [namespace, length, uniqueId]);
 };
