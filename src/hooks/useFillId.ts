@@ -3,7 +3,7 @@ import { useId, useMemo } from 'react';
 
 export const useFillId = (namespace: string) => {
   const uniqueId = useId();
-  const id = `lobe-icons-${kebabCase(namespace)}-fill-${uniqueId}`;
+  const id = `lobe-icons-${kebabCase(namespace)}-${uniqueId}`;
   return useMemo(
     () => ({
       fill: `url(#${id})`,
@@ -17,7 +17,7 @@ export const useFillIds = (namespace: string, length: number) => {
   const uniqueId = useId();
   return useMemo(() => {
     return Array.from({ length }, () => {
-      const id = `lobe-icons-${kebabCase(namespace)}-fill-${uniqueId}`;
+      const id = `lobe-icons-${kebabCase(namespace)}-${uniqueId}`;
       return {
         fill: `url(#${id})`,
         id,
