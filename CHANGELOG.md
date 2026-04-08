@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 5.3.1](https://github.com/lobehub/lobe-icons/compare/v5.3.0...v5.3.1)
+
+<sup>Released on **2026-04-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix svg id, Fix svg id.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix svg id ([ac123d0](https://github.com/lobehub/lobe-icons/commit/ac123d0))
+- **misc**: Fix svg id ([2b9a0a0](https://github.com/lobehub/lobe-icons/commit/2b9a0a0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.3.0](https://github.com/lobehub/lobe-icons/compare/v5.2.0...v5.3.0)
 
 <sup>Released on **2026-04-07**</sup>
