@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 5.4.0](https://github.com/lobehub/lobe-icons/compare/v5.3.1...v5.4.0)
+
+<sup>Released on **2026-04-09**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove es-toolkit runtime dependency.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([9a9e084](https://github.com/lobehub/lobe-icons/commit/9a9e084))
+
+#### What's fixed
+
+- **misc**: Remove es-toolkit runtime dependency, closes [#286](https://github.com/lobehub/lobe-icons/issues/286) [#232](https://github.com/lobehub/lobe-icons/issues/232) [#285](https://github.com/lobehub/lobe-icons/issues/285) [#232](https://github.com/lobehub/lobe-icons/issues/232) ([0b4a546](https://github.com/lobehub/lobe-icons/commit/0b4a546))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.3.1](https://github.com/lobehub/lobe-icons/compare/v5.3.0...v5.3.1)
 
 <sup>Released on **2026-04-08**</sup>
