@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.87.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.86.0...@lobehub/icons-static-svg@1.87.0)
+
+<sup>Released on **2026-04-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Merge icons pr form community.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([b7d755a](https://github.com/lobehub/lobe-icons/commit/b7d755a))
+- **misc**: Merge icons pr form community, closes [#296](https://github.com/lobehub/lobe-icons/issues/296) [#291](https://github.com/lobehub/lobe-icons/issues/291) [#292](https://github.com/lobehub/lobe-icons/issues/292) [#287](https://github.com/lobehub/lobe-icons/issues/287) [#C5F955](https://github.com/lobehub/lobe-icons/issues/C5F955) [#283](https://github.com/lobehub/lobe-icons/issues/283) [#294](https://github.com/lobehub/lobe-icons/issues/294) [#2430F0](https://github.com/lobehub/lobe-icons/issues/2430F0) [#2BE1B7](https://github.com/lobehub/lobe-icons/issues/2BE1B7) [#F2C79](https://github.com/lobehub/lobe-icons/issues/F2C79) [#22110](https://github.com/lobehub/lobe-icons/issues/22110) ([cd39078](https://github.com/lobehub/lobe-icons/commit/cd39078))
+
+#### What's fixed
+
+- **misc**: Fix build ([baec1d0](https://github.com/lobehub/lobe-icons/commit/baec1d0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.86.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.85.0...@lobehub/icons-static-svg@1.86.0)
 
 <sup>Released on **2026-04-09**</sup>
