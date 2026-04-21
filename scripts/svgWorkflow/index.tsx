@@ -1,19 +1,55 @@
 import { consola } from 'consola';
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import pMap from 'p-map';
 import puppeteer, { type Browser } from 'puppeteer';
 import { ComponentType, createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import sharp from 'sharp';
 
-import * as Icons from '../../src/icons';
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const rootDir = resolve(__dirname, '../..');
+const srcDir = resolve(rootDir, 'src');
 const outputDir = resolve(rootDir, 'packages/static-svg/icons');
 const outputPngDir = resolve(rootDir, 'packages/static-png');
 const outputWebpDir = resolve(rootDir, 'packages/static-webp');
 const outputAvatarsDir = resolve(rootDir, 'packages/static-avatar/avatars');
+
+type CompoundIcon = ComponentType & {
+  Avatar?: ComponentType;
+  Brand?: ComponentType;
+  BrandColor?: ComponentType;
+  Color?: ComponentType;
+  Text?: ComponentType;
+  TextCn?: ComponentType;
+  TextColor?: ComponentType;
+};
+
+const getIconIds = () => {
+  const source = readFileSync(resolve(srcDir, 'icons.ts'), 'utf8');
+  return Array.from(source.matchAll(/default as (\w+)/g), (match) => match[1]);
+};
+
+const loadIcons = async (): Promise<Record<string, CompoundIcon>> => {
+  // Preload feature modules to avoid circular initialization:
+  // any icon -> @/features/IconAvatar -> @lobehub/ui -> @lobehub/icons (src/index.ts)
+  // -> src/features -> modelConfig -> back into the icon being loaded.
+  await import(pathToFileURL(resolve(srcDir, 'features/IconAvatar/index.tsx')).href);
+  await import(pathToFileURL(resolve(srcDir, 'features/IconCombine/index.tsx')).href);
+
+  const iconIds = getIconIds();
+  const entries = await Promise.all(
+    iconIds.map(async (id) => {
+      const iconPath = resolve(srcDir, id, 'index.ts');
+      const mod = (await import(pathToFileURL(iconPath).href)) as { default: CompoundIcon };
+      return [id, mod.default] as const;
+    }),
+  );
+  return Object.fromEntries(entries);
+};
+
 type ThemeMode = 'light' | 'dark';
 
 const themeColors = {
@@ -26,6 +62,7 @@ class SvgWorkflow {
   ignoreList: string[] = [];
   browserInstance: Browser | null = null;
   browserPromise: Promise<Browser> | null = null;
+  icons: Record<string, CompoundIcon> = {};
 
   async getBrowser(): Promise<Browser> {
     // 使用 Promise 避免并发时启动多个浏览器实例
@@ -205,7 +242,7 @@ class SvgWorkflow {
   }
 
   async runSvg() {
-    await pMap(Object.entries(Icons), async ([key, Icon]: [string, any]) => {
+    await pMap(Object.entries(this.icons), async ([key, Icon]: [string, any]) => {
       if (!this.ignoreList.includes(key.toLowerCase())) {
         try {
           this.exportSvg(Icon, `${key.toLowerCase()}`);
@@ -241,7 +278,7 @@ class SvgWorkflow {
       consola.info('Browser launched, starting avatar export...');
 
       await pMap(
-        Object.entries(Icons),
+        Object.entries(this.icons),
         async ([key, Icon]: [string, any]) => {
           if (!this.ignoreList.includes(key.toLowerCase())) {
             try {
@@ -293,6 +330,7 @@ class SvgWorkflow {
   }
 
   async run() {
+    this.icons = await loadIcons();
     await this.runSvg();
     await this.runPng();
     await this.runWebp();
