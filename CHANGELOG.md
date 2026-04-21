@@ -2,6 +2,42 @@
 
 # Changelog
 
+## [Version 5.5.0](https://github.com/lobehub/lobe-icons/compare/v5.4.0...v5.5.0)
+
+<sup>Released on **2026-04-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add OpenCode provider/agent icon and Stepfun CodingPlan support, merge icons pr form community.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([fa2d80f](https://github.com/lobehub/lobe-icons/commit/fa2d80f))
+- **misc**: Add OpenCode provider/agent icon and Stepfun CodingPlan support, closes [#295](https://github.com/lobehub/lobe-icons/issues/295) ([ecea998](https://github.com/lobehub/lobe-icons/commit/ecea998))
+- **misc**: Merge icons pr form community, closes [#296](https://github.com/lobehub/lobe-icons/issues/296) [#291](https://github.com/lobehub/lobe-icons/issues/291) [#292](https://github.com/lobehub/lobe-icons/issues/292) [#287](https://github.com/lobehub/lobe-icons/issues/287) [#C5F955](https://github.com/lobehub/lobe-icons/issues/C5F955) [#283](https://github.com/lobehub/lobe-icons/issues/283) [#294](https://github.com/lobehub/lobe-icons/issues/294) [#2430F0](https://github.com/lobehub/lobe-icons/issues/2430F0) [#2BE1B7](https://github.com/lobehub/lobe-icons/issues/2BE1B7) [#F2C79](https://github.com/lobehub/lobe-icons/issues/F2C79) [#22110](https://github.com/lobehub/lobe-icons/issues/22110) ([cd39078](https://github.com/lobehub/lobe-icons/commit/cd39078))
+
+#### What's fixed
+
+- **misc**: Fix build ([e230f73](https://github.com/lobehub/lobe-icons/commit/e230f73))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.4.0](https://github.com/lobehub/lobe-icons/compare/v5.3.1...v5.4.0)
 
 <sup>Released on **2026-04-09**</sup>
