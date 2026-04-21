@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.7.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.6.1...@lobehub/icons-rn@2.7.0)
+
+<sup>Released on **2026-04-21**</sup>
+
+#### ✨ Features
+
+- **misc**: Merge icons pr form community.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Merge icons pr form community, closes [#296](https://github.com/lobehub/lobe-icons/issues/296) [#291](https://github.com/lobehub/lobe-icons/issues/291) [#292](https://github.com/lobehub/lobe-icons/issues/292) [#287](https://github.com/lobehub/lobe-icons/issues/287) [#C5F955](https://github.com/lobehub/lobe-icons/issues/C5F955) [#283](https://github.com/lobehub/lobe-icons/issues/283) [#294](https://github.com/lobehub/lobe-icons/issues/294) [#2430F0](https://github.com/lobehub/lobe-icons/issues/2430F0) [#2BE1B7](https://github.com/lobehub/lobe-icons/issues/2BE1B7) [#F2C79](https://github.com/lobehub/lobe-icons/issues/F2C79) [#22110](https://github.com/lobehub/lobe-icons/issues/22110) ([cd39078](https://github.com/lobehub/lobe-icons/commit/cd39078))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.6.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.6.0...@lobehub/icons-rn@2.6.1)
 
 <sup>Released on **2026-04-08**</sup>
