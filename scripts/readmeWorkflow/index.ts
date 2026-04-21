@@ -3,7 +3,9 @@ import { markdownTable } from 'markdown-table';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import { type IconToc, getLobeIconCDN, toc } from '@/index';
+import { getLobeIconCDN } from '@/features/getLobeIconCDN';
+import { toc } from '@/toc';
+import type { IconToc } from '@/types/toc';
 
 const ROOT_PATH = resolve(__dirname, '../..');
 
