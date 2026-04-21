@@ -91,6 +91,7 @@ import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
+import OpenCode from '@/OpenCode';
 import OpenRouter from '@/OpenRouter';
 import PPIO from '@/PPIO';
 import Parasail from '@/Parasail';
@@ -210,7 +211,11 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: AiMass, keywords: [ModelProvider.AiMass] },
   { Icon: AiStudio, keywords: [ModelProvider.AiStudio] },
   { Icon: LobeHub, combineMultiple: 1.1, keywords: [ModelProvider.LobeHub] },
-  { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu, ModelProvider.GLMCodingPlan] },
+  {
+    Icon: Zhipu,
+    combineMultiple: 1.25,
+    keywords: [ModelProvider.ZhiPu, ModelProvider.GLMCodingPlan],
+  },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -257,12 +262,29 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 0.9,
     keywords: [ModelProvider.Azure],
   },
-  { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot, ModelProvider.KimiCodingPlan] },
+  {
+    Icon: Moonshot,
+    combineMultiple: 0.9,
+    keywords: [ModelProvider.Moonshot, ModelProvider.KimiCodingPlan],
+  },
   { Icon: Novita, keywords: [ModelProvider.Novita] },
   { Icon: OpenAI, keywords: [ModelProvider.OpenAI] },
+  {
+    Icon: OpenCode,
+    keywords: [
+      ModelProvider.OpenCode,
+      ModelProvider.OpenCodeCodingPlan,
+      ModelProvider.OpenCodeGo,
+      ModelProvider.OpenCodeZen,
+    ],
+  },
   { Icon: Ollama, combineMultiple: 1.16, keywords: [ModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
-  { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax, ModelProvider.MiniMaxCodingPlan] },
+  {
+    Icon: Minimax,
+    combineMultiple: 1.3,
+    keywords: [ModelProvider.Minimax, ModelProvider.MiniMaxCodingPlan],
+  },
   { Icon: Mistral, keywords: [ModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -295,7 +317,11 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 1.1,
     keywords: [ModelProvider.Qwen],
   },
-  { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
+  {
+    Icon: Stepfun,
+    combineMultiple: 0.83,
+    keywords: [ModelProvider.Stepfun, ModelProvider.StepfunCodingPlan],
+  },
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
   { Icon: Baichuan, combineMultiple: 0.83, keywords: [ModelProvider.Baichuan] },
