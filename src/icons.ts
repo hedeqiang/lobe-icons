@@ -127,6 +127,7 @@ export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './Haiper';
 export { default as Hedra, type CompoundedIcon as HedraProps } from './Hedra';
+export { default as HermesAgent, type CompoundedIcon as HermesAgentProps } from './HermesAgent';
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as Huawei, type CompoundedIcon as HuaweiProps } from './Huawei';
 export { default as HuaweiCloud, type CompoundedIcon as HuaweiCloudProps } from './HuaweiCloud';
@@ -179,6 +180,7 @@ export { default as Mastra, type CompoundedIcon as MastraProps } from './Mastra'
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
 export { default as McpSo, type CompoundedIcon as McpSoProps } from './McpSo';
 export { default as Menlo, type CompoundedIcon as MenloProps } from './Menlo';
+export { default as Meshy, type CompoundedIcon as MeshyProps } from './Meshy';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as MetaAI, type CompoundedIcon as MetaAIProps } from './MetaAI';
 export { default as MetaGPT, type CompoundedIcon as MetaGPTProps } from './MetaGPT';
@@ -250,6 +252,7 @@ export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './S
 export { default as SophNet, type CompoundedIcon as SophNetLabsProps } from './SophNet';
 export { default as Sora, type CompoundedIcon as SoraProps } from './Sora';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
+export { default as SpeedAI, type CompoundedIcon as SpeedAIProps } from './SpeedAI';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './StateCloud';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
@@ -274,6 +277,7 @@ export { default as Unstructured, type CompoundedIcon as UnstructuredProps } fro
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as V0, type CompoundedIcon as V0Props } from './V0';
 export { default as VectorizerAI, type CompoundedIcon as VectorizerAIProps } from './VectorizerAI';
+export { default as Venice, type CompoundedIcon as VeniceProps } from './Venice';
 export { default as Vercel, type CompoundedIcon as VercelProps } from './Vercel';
 export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';
 export { default as Vidu, type CompoundedIcon as ViduProps } from './Vidu';
