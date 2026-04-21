@@ -211,25 +211,6 @@
     "title": "AiMass"
   },
   {
-    "color": "#000",
-    "desc": "https://aistudio.google.com",
-    "docsUrl": "ai-studio",
-    "fullTitle": "AI Studio (Google)",
-    "group": "provider",
-    "id": "AiStudio",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": false,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Google AI Studio"
-  },
-  {
     "color": "#0f172a",
     "desc": "https://aionlabs.ai",
     "docsUrl": "aion-labs",
@@ -247,6 +228,25 @@
       "hasTextColor": false
     },
     "title": "AionLabs"
+  },
+  {
+    "color": "#000",
+    "desc": "https://aistudio.google.com",
+    "docsUrl": "ai-studio",
+    "fullTitle": "AI Studio (Google)",
+    "group": "provider",
+    "id": "AiStudio",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Google AI Studio"
   },
   {
     "color": "#000",
@@ -295,7 +295,7 @@
     "id": "Alibaba",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -352,7 +352,7 @@
     "id": "AntGroup",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -561,7 +561,7 @@
     "id": "Aws",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -676,7 +676,7 @@
     "id": "Baidu",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -887,7 +887,7 @@
     "id": "ByteDance",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -925,7 +925,7 @@
     "id": "CentML",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -944,7 +944,7 @@
     "id": "Cerebras",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -1008,7 +1008,7 @@
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
-      "hasTextColor": false
+      "hasTextColor": true
     },
     "title": "Civitai"
   },
@@ -1224,6 +1224,7 @@
   },
   {
     "color": "#F9AB00",
+    "colorGradient": "linear-gradient(-45deg, #E8710A, #F9AB00)",
     "desc": "https://colab.research.google.com/",
     "docsUrl": "colab",
     "fullTitle": "Colab (Google)",
@@ -1479,7 +1480,7 @@
     "id": "Dbrx",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -1618,7 +1619,7 @@
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
-      "hasTextColor": false
+      "hasTextColor": true
     },
     "title": "Dify"
   },
@@ -1985,25 +1986,6 @@
     "title": "Friendli"
   },
   {
-    "color": "#0039C6",
-    "desc": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
-    "docsUrl": "glmv",
-    "fullTitle": "GLM-V",
-    "group": "model",
-    "id": "GLMV",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "GLM-V"
-  },
-  {
     "color": "#fff",
     "desc": "https://deepmind.google/technologies/gemini",
     "docsUrl": "gemini",
@@ -2157,6 +2139,25 @@
     "title": "Glif"
   },
   {
+    "color": "#0039C6",
+    "desc": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+    "docsUrl": "glmv",
+    "fullTitle": "GLM-V",
+    "group": "model",
+    "id": "GLMV",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GLM-V"
+  },
+  {
     "color": "#fff",
     "desc": "https://google.com",
     "docsUrl": "google",
@@ -2165,7 +2166,7 @@
     "id": "Google",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -2184,7 +2185,7 @@
     "id": "GoogleCloud",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -2382,7 +2383,7 @@
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
-      "hasTextColor": false
+      "hasTextColor": true
     },
     "title": "Higress"
   },
@@ -2501,25 +2502,6 @@
     "title": "IBM"
   },
   {
-    "color": "#2A80E2",
-    "desc": "https://xfyun.cn",
-    "docsUrl": "i-fly-tek-cloud",
-    "fullTitle": "IFlyTekCloud (讯飞开放平台)",
-    "group": "provider",
-    "id": "IFlyTekCloud",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "iFlyTekCloud"
-  },
-  {
     "color": "#fff",
     "desc": "https://ideogram.ai",
     "docsUrl": "ideogram",
@@ -2537,6 +2519,25 @@
       "hasTextColor": false
     },
     "title": "Ideogram"
+  },
+  {
+    "color": "#2A80E2",
+    "desc": "https://xfyun.cn",
+    "docsUrl": "i-fly-tek-cloud",
+    "fullTitle": "IFlyTekCloud (讯飞开放平台)",
+    "group": "provider",
+    "id": "IFlyTekCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "iFlyTekCloud"
   },
   {
     "color": "#fff",
@@ -2840,7 +2841,7 @@
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
-      "hasTextColor": false
+      "hasTextColor": true
     },
     "title": "KwaiKAT"
   },
@@ -2862,45 +2863,6 @@
       "hasTextColor": false
     },
     "title": "Kwaipilot"
-  },
-  {
-    "color": "#C00C3F",
-    "desc": "https://lgresearch.ai",
-    "docsUrl": "lg",
-    "fullTitle": "LG AI (KMMLU/EXAONE)",
-    "group": "provider",
-    "id": "LG",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "LG AI"
-  },
-  {
-    "color": "#CB2D30",
-    "colorGradient": "linear-gradient(-45deg, #CB2D30, #ED823A)",
-    "desc": "https://github.com/haotian-liu/LLaVA",
-    "docsUrl": "l-la-va",
-    "fullTitle": "LLaVA",
-    "group": "model",
-    "id": "LLaVA",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "LLaVA"
   },
   {
     "color": "#000",
@@ -2941,6 +2903,25 @@
     "title": "LangChain"
   },
   {
+    "color": "#1B1917",
+    "desc": "https://langfuse.com",
+    "docsUrl": "langfuse",
+    "fullTitle": "Langfuse",
+    "group": "application",
+    "id": "Langfuse",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Langfuse"
+  },
+  {
     "color": "#1C3C3C",
     "desc": "https://langchain.com/LangGraph",
     "docsUrl": "lang-graph",
@@ -2979,25 +2960,6 @@
     "title": "LangSmith"
   },
   {
-    "color": "#1B1917",
-    "desc": "https://langfuse.com",
-    "docsUrl": "langfuse",
-    "fullTitle": "Langfuse",
-    "group": "application",
-    "id": "Langfuse",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Langfuse"
-  },
-  {
     "color": "#2F80ED",
     "desc": "https://lepton.ai",
     "docsUrl": "lepton-ai",
@@ -3015,6 +2977,25 @@
       "hasTextColor": false
     },
     "title": "LeptonAI"
+  },
+  {
+    "color": "#C00C3F",
+    "desc": "https://lgresearch.ai",
+    "docsUrl": "lg",
+    "fullTitle": "LG AI (KMMLU/EXAONE)",
+    "group": "provider",
+    "id": "LG",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "LG AI"
   },
   {
     "color": "#000",
@@ -3091,6 +3072,26 @@
       "hasTextColor": false
     },
     "title": "LlamaIndex"
+  },
+  {
+    "color": "#CB2D30",
+    "colorGradient": "linear-gradient(-45deg, #CB2D30, #ED823A)",
+    "desc": "https://github.com/haotian-liu/LLaVA",
+    "docsUrl": "l-la-va",
+    "fullTitle": "LLaVA",
+    "group": "model",
+    "id": "LLaVA",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "LLaVA"
   },
   {
     "color": "#3F35FF",
@@ -3227,25 +3228,6 @@
     "title": "Luma"
   },
   {
-    "color": "#FFF",
-    "desc": "https://modelcontextprotocol.io",
-    "docsUrl": "mcp",
-    "fullTitle": "MCP (Model Context Protocol)",
-    "group": "application",
-    "id": "MCP",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": false,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "ModelContextProtocol"
-  },
-  {
     "color": "#fff",
     "desc": "https://magic.dev",
     "docsUrl": "magic",
@@ -3322,6 +3304,25 @@
     "title": "Mastra"
   },
   {
+    "color": "#FFF",
+    "desc": "https://modelcontextprotocol.io",
+    "docsUrl": "mcp",
+    "fullTitle": "MCP (Model Context Protocol)",
+    "group": "application",
+    "id": "MCP",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "ModelContextProtocol"
+  },
+  {
     "color": "#1C3F6B",
     "desc": "https://mcp.so",
     "docsUrl": "mcp-so",
@@ -3388,7 +3389,7 @@
     "id": "Meta",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -3629,25 +3630,6 @@
     "title": "n8n"
   },
   {
-    "color": "#00D1B2",
-    "desc": "https://nlpcloud.com",
-    "docsUrl": "npl-cloud",
-    "fullTitle": "NPLCloud",
-    "group": "provider",
-    "id": "NPLCloud",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "NPLCloud"
-  },
-  {
     "color": "#FCD53F",
     "desc": "https://gemini.google/overview/image-generation",
     "docsUrl": "nano-banana",
@@ -3818,6 +3800,25 @@
       "hasTextColor": false
     },
     "title": "Novita AI"
+  },
+  {
+    "color": "#00D1B2",
+    "desc": "https://nlpcloud.com",
+    "docsUrl": "npl-cloud",
+    "fullTitle": "NPLCloud",
+    "group": "provider",
+    "id": "NPLCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "NPLCloud"
   },
   {
     "color": "#74B71B",
@@ -4008,25 +4009,6 @@
       "hasTextColor": false
     },
     "title": "OpenWebUI"
-  },
-  {
-    "color": "#2874ff",
-    "desc": "https://ppinfra.com",
-    "docsUrl": "ppio",
-    "fullTitle": "PPIO",
-    "group": "provider",
-    "id": "PPIO",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": true,
-      "hasTextColor": false
-    },
-    "title": "PPIO"
   },
   {
     "color": "#FFF",
@@ -4220,6 +4202,25 @@
     "title": "Pollinations"
   },
   {
+    "color": "#2874ff",
+    "desc": "https://ppinfra.com",
+    "docsUrl": "ppio",
+    "fullTitle": "PPIO",
+    "group": "provider",
+    "id": "PPIO",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": true,
+      "hasTextColor": false
+    },
+    "title": "PPIO"
+  },
+  {
     "color": "#AC51FF",
     "desc": "https://pruna.ai",
     "docsUrl": "pruna-ai",
@@ -4335,25 +4336,6 @@
     "title": "Qwen"
   },
   {
-    "color": "#fff",
-    "desc": "https://rsshub.app",
-    "docsUrl": "rss-hub",
-    "fullTitle": "RSSHub",
-    "group": "application",
-    "id": "RSSHub",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "RSSHub"
-  },
-  {
     "color": "#853bce",
     "colorGradient": "linear-gradient(to bottom, #A204B4, #6213B9)",
     "desc": "https://railway.com",
@@ -4420,11 +4402,11 @@
     "id": "Replicate",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": false,
       "hasColor": false,
       "hasCombine": false,
-      "hasText": true,
+      "hasText": false,
       "hasTextCn": false,
       "hasTextColor": false
     },
@@ -4486,6 +4468,25 @@
       "hasTextColor": false
     },
     "title": "RooCode"
+  },
+  {
+    "color": "#fff",
+    "desc": "https://rsshub.app",
+    "docsUrl": "rss-hub",
+    "fullTitle": "RSSHub",
+    "group": "application",
+    "id": "RSSHub",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "RSSHub"
   },
   {
     "color": "#fff",
@@ -4592,7 +4593,7 @@
     "id": "SenseNova",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -4765,7 +4766,7 @@
     "id": "Stability",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": true,
@@ -4910,25 +4911,6 @@
     "title": "Sync"
   },
   {
-    "color": "#6400FF",
-    "desc": "https://tii.ae",
-    "docsUrl": "tii",
-    "fullTitle": "Technology Innovation Institute (Falcon)",
-    "group": "provider",
-    "id": "TII",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Technology Innovation Institute"
-  },
-  {
     "color": "#68C3FF",
     "desc": "https://targon.com",
     "docsUrl": "targon",
@@ -4975,7 +4957,7 @@
     "id": "Tencent",
     "param": {
       "hasAvatar": true,
-      "hasBrand": true,
+      "hasBrand": false,
       "hasBrandColor": true,
       "hasColor": true,
       "hasCombine": false,
@@ -5023,6 +5005,25 @@
       "hasTextColor": false
     },
     "title": "Tiangong"
+  },
+  {
+    "color": "#6400FF",
+    "desc": "https://tii.ae",
+    "docsUrl": "tii",
+    "fullTitle": "Technology Innovation Institute (Falcon)",
+    "group": "provider",
+    "id": "TII",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Technology Innovation Institute"
   },
   {
     "color": "#fff",
@@ -5132,7 +5133,7 @@
       "hasBrand": false,
       "hasBrandColor": false,
       "hasColor": true,
-      "hasCombine": false,
+      "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
       "hasTextColor": false
@@ -5656,25 +5657,6 @@
     "title": "Zeabur"
   },
   {
-    "color": "#000",
-    "desc": "https://zenmux.ai",
-    "docsUrl": "zen-mux",
-    "fullTitle": "ZenMux",
-    "group": "provider",
-    "id": "ZenMux",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": false,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "ZenMux"
-  },
-  {
     "color": "#E65C2C",
     "desc": "https://zencoder.ai",
     "docsUrl": "zencoder",
@@ -5694,6 +5676,25 @@
     "title": "Zencoder"
   },
   {
+    "color": "#000",
+    "desc": "https://zenmux.ai",
+    "docsUrl": "zen-mux",
+    "fullTitle": "ZenMux",
+    "group": "provider",
+    "id": "ZenMux",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "ZenMux"
+  },
+  {
     "color": "#003425",
     "desc": "https://lingyiwanwu.com/",
     "docsUrl": "zero-one",
@@ -5704,7 +5705,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": false,
+      "hasColor": true,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
