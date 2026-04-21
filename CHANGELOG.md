@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 5.5.4](https://github.com/lobehub/lobe-icons/compare/v5.5.3...v5.5.4)
+
+<sup>Released on **2026-04-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix workflow.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix workflow ([9a95429](https://github.com/lobehub/lobe-icons/commit/9a95429))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.5.3](https://github.com/lobehub/lobe-icons/compare/v5.5.2...v5.5.3)
 
 <sup>Released on **2026-04-21**</sup>
