@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 5.6.0](https://github.com/lobehub/lobe-icons/compare/v5.5.4...v5.6.0)
+
+<sup>Released on **2026-04-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Change TITLE constant from 'Antigravity' to 'Claude Code'.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([b7d755a](https://github.com/lobehub/lobe-icons/commit/b7d755a))
+
+#### What's fixed
+
+- **misc**: Change TITLE constant from 'Antigravity' to 'Claude Code', closes [#298](https://github.com/lobehub/lobe-icons/issues/298) ([0fb9862](https://github.com/lobehub/lobe-icons/commit/0fb9862))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.5.4](https://github.com/lobehub/lobe-icons/compare/v5.5.3...v5.5.4)
 
 <sup>Released on **2026-04-21**</sup>
